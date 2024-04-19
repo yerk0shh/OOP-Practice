@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class DB {
+public interface DB {
+    User create(String name, String password);
 }

@@ -1,7 +1,4 @@
 
-import javax.swing.text.Document;
-import java.net.URI;
-import java.sql.SQLOutput;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -13,7 +10,7 @@ import java.util.List;
 
 public class TXTReader {
     public static void main(String args[]){
-        String file = "C:\\Users\\Yerkebulan\\Desktop\\narxoz\\In Our Time by Ernest Hemingway.txt";
+        String file = "C:\\Users\\Yerkebulan\\Desktop\\Uni&Private\\OOPLearning\\In Our Time by Ernest Hemingway.txt";
         File filename = new File(file);
         String fileName = filename.getName();
         try {
